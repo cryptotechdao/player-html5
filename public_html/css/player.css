@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 juin 2015, 12:27:09
+    Author     : Tuan
+*/
+
+
+
+.btn-player {
+    height: 35px; width:35px; 
+    border-radius: 20px;
+    background-size: 100%; 
+}
+
+.btn-stop {
+    background :url(../image/player_button/Actions-media-playback-stop-icon.png);
+    background-size: 100%;
+}
+
+.btn-stop:active {
+    background :url(../image/player_button/Actions-media-playback-stop-icon.png);
+    background-size: 105%;
+}
+
+.btn-backward {
+    background :url(../image/player_button/Actions-media-skip-backward-icon.png);
+    background-size: 100%;
+}
+
+.btn-backward:active {
+    background :url(../image/player_button/Actions-media-skip-backward-icon.png);
+    background-size: 105%;
+}
+
+.btn-start {
+    background :url(../image/player_button/Actions-media-playback-start-icon.png);
+    background-size: 100%;
+}
+
+.btn-start:active {
+    background :url(../image/player_button/Actions-media-playback-start-icon.png);
+    background-size: 105%;
+}
+
+.btn-pause {
+    background :url(../image/player_button/Actions-media-playback-pause-icon.png);
+    background-size: 100%;
+}
+.btn-pause:active {
+    background :url(../image/player_button/Actions-media-playback-pause-icon.png);
+    background-size: 105%;
+}
+
+.btn-forward {
+    background :url(../image/player_button/Actions-media-skip-forward-icon.png);
+    background-size: 100%;
+}
+
+.btn-forward:active {
+    background :url(../image/player_button/Actions-media-skip-forward-icon.png);
+    background-size: 105%;
+}
+
+.btn-playlist {
+    height: 35px; width:35px; 
+    background :url(../image/player_button/Status-media-playlist-repeat-icon.png);
+    background-size: 100%;
+}
+
+.btn-playlist:active {
+    height: 35px; width:35px; 
+    background :url(../image/player_button/Status-media-playlist-repeat-icon.png);
+    background-size: 105%;
+}
+.btn-mute{
+    font-size: 25px; 
+    margin-right: 0px; 
+    vertical-align: middle; 
+    cursor: pointer;
+}
+
+
+
+.song-list{
+
+}
+
+
+.test {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.volume {
+    vertical-align: bottom;
+    display: inline-block;
+    height: 35px;
+    width: 40px;
+}
+
+.track {
+    cursor: pointer;
+}
+
+.track:hover {
+    cursor: pointer;
+    background-color: #66afe9;
+}
+.current_play{
+    background-color:#afd9ee;
+}
+
+.control-bar{
+    background-color: rgb(238, 238, 238);
+}
